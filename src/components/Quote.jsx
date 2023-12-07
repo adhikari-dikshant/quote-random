@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import twitterIcon from '../twitter.svg'; // Assuming you have the Twitter icon
+// import { useDispatch } from 'react-redux';
+// import { addToBookmarks } from "../actions/addToBookmark";
 
 const Quotes = () => {
     // State variables to manage quote, author, tags, and selected tag
@@ -7,6 +9,11 @@ const Quotes = () => {
     const [author, setAuthor] = useState('');
     const [tags, setTags] = useState([]);
     const [selectedTag, setSelectedTag] = useState('');
+    //    const dispatch = useDispatch();
+
+    {/*const handleBookmark = () => {
+        dispatch(addToBookmarks({ quote, author }));
+    };*/}
 
     // Fetch tags from the Quotable API on component mount
     useEffect(() => {
@@ -84,6 +91,9 @@ const Quotes = () => {
                 <button onClick={handleClick} id="new-quote">
                     New Quote
                 </button>
+                {/*<button onClick={handleBookmark} id="bookmark-quote">
+                    Bookmark Quote
+                </button>*/}
             </div>
         </div>
     );
