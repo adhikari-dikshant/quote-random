@@ -3,7 +3,7 @@ import twitterIcon from '../twitter.svg'; // Assuming you have the Twitter icon
 // import { useDispatch } from 'react-redux';
 // import { addToBookmarks } from "../actions/addToBookmark";
 
-const Quotes = () => {
+const Quote = () => {
     // State variables to manage quote, author, tags, and selected tag
     const [quote, setQuote] = useState('');
     const [author, setAuthor] = useState('');
@@ -99,4 +99,4 @@ const Quotes = () => {
     );
 };
 
-export default Quotes;
+export default Quote;
