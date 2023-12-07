@@ -71,3 +71,11 @@ body {
 #new-quote:hover {
   opacity: 0.9;
 }
+
+@media screen and (max-width: 768px) {
+  #quote-box {
+    width: 90%; /* Adjust width for smaller screens */
+    margin: 5rem auto; /* Adjust margin */
+    padding: 2rem; /* Adjust padding */
+  }
+}
