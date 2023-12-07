@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# TGH Tech - Frontend Developer Role Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Random Quote GeneratorWith Tags 😉
 
-## Available Scripts
+## Objective
+The aim is to build quote generator app that displays new quotes using third party API services.
 
-In the project directory, you can run:
+## Requirements
+- [x] Should load a random quote when a user enters the homepage, using endpoint `/random`
+- [x]   A button which on click generates another quote
+- [x]  The homepage should load the list of tags in a dropdown by calling `/tags` endpoint
+- [x] If a tag is selected from dropdown, then use `/random` endpoint and pass the tag query to get the required quote
+- [ ] Option to bookmark a quote which can be viewed later from another page. This data must be visible in the `/bookmarks` route
+- [ ] `Redux` must be used to manage the global state
+- [x] Should reflect the design, but you are free to make creative improvements
+- [x] Should be mobile responsive
 
-### `npm start`
+### Base API URL: api.quotable.io
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :pushpin: How to use this App?
+1. Make sure [Git](https://git-scm.com "Git") and [NodeJS](https://nodejs.org "NodeJS") are installed.
+2. Clone this repository to your local computer.
+3. Type and Run `npm install` or `yarn install` to install required packages.
+9. Once project has been set up, you can start this app using `npm start` or `yarn start`.
+10. Now app is fully configured and you can start using this app :+1:.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## :pen: [Result](https://quote-random-adhikari-dikshants-projects.vercel.app/) (Tap The Link)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## :gear: Built with
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-around;">
+    <a href="https://www.javascript.com/" target="_blank"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="150" height="40" /></a>
+    <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="150" /></a>
+    <a href="https://github.com/adhikari-dikshant" target="_blank"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Built with Love" width="150" /></a>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :raised_hands: Contribute
+You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :star: Give A Star
+You can also give this repository a star to show more people and they can use this repository.
