@@ -1,5 +1,5 @@
-import React from 'react';
-import Quote from './components/Quote';
+import { React } from 'react';
+import { Quote } from './components/Quote';
 import './App.css';
 // import Bookmarks from './components/Bookmarks';
 
