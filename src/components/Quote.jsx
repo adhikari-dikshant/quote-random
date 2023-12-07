@@ -12,8 +12,8 @@ const Quote = () => {
     //    const dispatch = useDispatch();
 
     {/*const handleBookmark = () => {
-        dispatch(addToBookmarks({ quote, author }));
-    };*/}
+      dispatch(addToBookmarks({ quote, author }));
+  };*/}
 
     // Fetch tags from the Quotable API on component mount
     useEffect(() => {
@@ -99,4 +99,4 @@ const Quote = () => {
     );
 };
 
-export default Quote;
+export default Quote
